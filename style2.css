@@ -1,10 +1,13 @@
+body {
+    text-align: center;
+}
 #first{
     text-align: center;
     padding-top: 200px;
     padding-bottom: 215px;
     background-image:url('beach.jpg');
 }
-     
+
 h1{
     color: rgb(202, 140, 60);
     font-size: 60px;
@@ -16,22 +19,53 @@ p{
 }
 #second{
     background-color: rgb(167, 115, 48);
-    font-size: x-large;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    font-size: 20px;
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+    padding: 16px;
+    color: white;
+    line-height: 150%;
 }
 #third{
-    background-color: white;
-    font-size: x-large;
-    padding-top:20px;
-    padding-bottom: 20px;
-}
-#fourth{
-    background-color: rgb( 167, 115, 48);
-    font-size: x-large;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    height: 500px;
-    width: 300px;
+    font-size: 20px;
+    /* edit */
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+    padding: 16px;
+    color: rgb(167, 115, 48);
+    line-height: 150%;
 
+}
+.one{
+    background-color: rgb(167, 115, 48);
+    font-size: 20px;
+    padding: 16px;
+    color: white;
+    line-height: 150%;
+}
+
+/* edit */
+.two {
+    font-size: 20px;
+    padding: 16px;
+    color: rgb(167, 115, 48);
+    line-height: 150%;
+}
+
+.button {
+    padding: 16px 24px;/* top,bottom: 16px. left,right: 24px */
+    font-size: 18px;
+    color: rgb(167, 115, 48);
+    background-color: white;
+    border: 1px solid rgb(167, 115, 48);
+    border-radius: 10px;
+}
+.button:hover {
+    background-color: rgb(167, 115, 48);
+    color: white;
+    cursor: pointer;
+}
+
+.p1 {
+    margin-top: -24px;
 }
