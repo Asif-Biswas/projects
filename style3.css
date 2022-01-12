@@ -1,0 +1,32 @@
+#first{
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 215px;
+    background-image:url('beach.jpg');
+}
+     
+h1{
+    color: rgb(202, 140, 60);
+    font-size: 60px;
+
+}
+p{
+    color: rgb(202, 140, 60);
+    font-size: 20px;
+}
+#second{
+    background-color: rgb(167, 115, 48);
+    font-size: x-large;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#third{
+    font-size: x-large;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.one{
+    background-color: rgb(167, 115, 48);
+    font-size: x-large;
+}
